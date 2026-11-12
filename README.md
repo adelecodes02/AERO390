@@ -1,40 +1,21 @@
-# Airframe Model for Linearization and Control Design
+MATLAB & SIUMULINK code for the flight control computer (FCC) of a challenger 3500.
+Control systems are focused on the roll control surfaces.
 
-[![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####-file-exchange-title)  
-<!-- Add this icon to the README if this repo also appears on File Exchange via the "Connect to GitHub" feature --> 
+This FCC is meant to be used in the test plan of the validation and verification plan of the AERO390 project for team R5.
 
-![Beaver]
+Any stated values come from the aileron hinge moment calculations performed by team R5.
 
-Use this model of the de Havilland Beaver Airframe to follow along with "Trim, Linearization, and Control Design for an Aircraft" and learn about this linearization and control design workflow. The airframe takes in elevator, aileron, rudder, and throttle as inputs and outputs angles, angular rates, and position in the body coordinate frame. You will learn to linearize and design a controller for the airframe model in Simulink. The Model Linearizer makes it easy to trim and linearize around operating points. Once the aircraft has been linearized, the Control System Designer makes it convenient to design a Controller for a Single Input Single Output system using both graphical and automated tuning methods. The controller can then be exported back to Simulink, allowing for confirmation of design through simulation.
+This FCC is a very simplified version of a regular FCC found on the CL3500.
 
-## Setup 
-To Run:
-1. open "dehavillandControl.slx"
-2. select "run" from the toolstrip
+Team R5 based the FCC on the following:
 
-Additional information about set up
+[1]Dr. Salahudden, Aircraft Roll Control Design | SD and Control With MATLAB and Simulink by Dr. Salahudden, (Sep. 26, 2025). Accessed: Nov. 10, 2026. [Video]. Available: https://www.youtube.com/watch?v=rm2tXvYYkNk&t=218s
 
-### MathWorks Products (https://www.mathworks.com)
+[2]Siddharth Jawahar, “Pitch-Rate-Controller-For-Aircraft,” Mathworks.com. Accessed: Nov. 03, 2026. [Online]. Available: https://www.mathworks.com/matlabcentral/fileexchange/129809-pitch-rate-controller-for-aircraft
 
-Requires MATLAB release R2022b or newer
-- [Simulink&reg;](https://www.mathworks.com/products/simulink.html)
-- [Simulink Control Design&trade;](https://www.mathworks.com/products/simcontrol.html)
+[3]VDEngineering, MATLAB & Simulink Lecture: The Aerospace Blockset (Walkthrough + 2 Examples), (Feb. 10, 2018). Accessed: Nov. 10, 2026. [Video]. Available: https://www.youtube.com/watch?v=X_dGm1mhHsM&list=WL&index=3&t=30s
 
 
-## Getting Started 
-Information about Getting Started
-https://www.mathworks.com/help/slcontrol/steady-state-operating-points.html
-https://www.mathworks.com/help/slcontrol/linearization.html
-https://www.mathworks.com/help/slcontrol/graphical-and-automated-control-design.html
-
-
-## License
-The license for Airframe Model for Linearization and Control Design is available in the LICENSE.TXT file in this GitHub repository.
-
-## Community Support
-[MATLAB Central](https://www.mathworks.com/matlabcentral)
-
-Copyright 2023 The MathWorks, Inc.
-
-[Beaver]: beaver.jpg
-
+Created by:
+Adèle Pinheiro St-Pierre
+40309682
